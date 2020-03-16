@@ -5,11 +5,12 @@ Tags: map, geocode, simple map plugin, open street map, insert map wordpress
 Requires at least: 3.9
 Tested up to: 5.3
 Requires PHP: 5.2.4
-Stable tag: 1.2.4.2
+Stable tag: 1.2.4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
  
-Configure and insert a map without leaving the editor. Location is automatically saved as part of post metadata.
+Configure and insert a map without leaving the editor. Location is automatically saved as part of post metadata. This particular
+version is hosted on github is not identical to WP.org
  
 == Description ==
 
