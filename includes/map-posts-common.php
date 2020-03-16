@@ -128,12 +128,13 @@ class IPTMP_Map_Posts {
 	//Registers meata boxes - to accomodate unknown number of custom post types, do as a loop
 	function add_register_map_meta_box() {
 
+		//Some unnecessary comments
 		//Alternate code to add map configuration to only non-custom post types and pages
-		add_meta_box( 'define_map_meta_box', 'Define Map', array($this,'add_define_map_meta_box'), 'post', 'normal');
-		add_meta_box( 'define_map_meta_box', 'Define Map', array($this,'add_define_map_meta_box'), 'page', 'normal');
+		//add_meta_box( 'define_map_meta_box', 'Define Map', array($this,'add_define_map_meta_box'), 'post', 'normal');
+		//add_meta_box( 'define_map_meta_box', 'Define Map', array($this,'add_define_map_meta_box'), 'page', 'normal');
 
 		//Adds map configuration meta box to every post type
-		/*
+
 		$post_types = get_post_types( array(), 'objects' );
 		foreach ( $post_types as $post_type ) {
         add_meta_box( 'define_map_meta_box',
@@ -141,7 +142,7 @@ class IPTMP_Map_Posts {
                       array($this,'add_define_map_meta_box'),
                       $post_type->name, 'normal' );
 		}
-		*/
+
 	}
 
 	//Adds buttons to visual editor
