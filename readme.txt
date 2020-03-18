@@ -16,6 +16,8 @@ Changed first paragraph of readme.txt
 Map Posts allows you to add location as post metadata and insert a map directly in the post, without ever leaving the editor.
 No plugin configuration is required; simply install, activate and within the post editor define a location and insert a map.
 
+This is added for the benefit of Exercise 3.1
+
 = WordPress 5.0 and Gutenberg Compatibility =
 
 Map Posts Free, as of version 1.2.2, works best with the Classic Editor enabled (meaning the Classic Editor plugin has been installed
