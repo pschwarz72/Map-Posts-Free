@@ -10,6 +10,7 @@
  * License: GPLv2 or later
  */
 
+ //This is added for benefit of branch "theother32"
 
 /**
  * IPT Map Posts Free is free software: you can redistribute it and/or modify
