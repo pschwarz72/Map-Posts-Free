@@ -5,6 +5,7 @@ if ( ! defined( 'WP_UNINSTALL_PLUGIN' )) {
 	die;
 }
  
+//An unnecessary comment added just to practice git
 
 //Verifies user is admin
 $iptmp_uninstall_chk_role = iptmp_uninstall_chk_role();
